@@ -1,0 +1,13 @@
+dataset_path: "/media/david/media/FTU-segmentation/hubmap-organ-segmentation"
+models_path: "/media/david/media/FTU-segmentation/models"
+output_path: "/media/david/media/FTU-segmentation/experiments"
+
+parameters:
+  model: "resnet18"
+  batch_size: 32
+  num_epochs: 25
+  learning_rate: 0.001
+  num_workers: 12
+  load_model: false
+  save_model: true
+  pin_memory: true
